@@ -18,7 +18,7 @@ class {{ module_info.name }}Presenter {
 //MARK: - {{ module_info.name }}ViewOutput implementation
 extension {{ module_info.name }}Presenter: {{ module_info.name }}ViewOutput {
 	func viewIsReady() {
-
+		view.setupInitialState()
     }
 }
 
